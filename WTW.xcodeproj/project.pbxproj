@@ -12,9 +12,17 @@
 		47277C0B1E437CFB00393DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47277C091E437CFB00393DE0 /* Main.storyboard */; };
 		47277C0D1E437CFB00393DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47277C0C1E437CFB00393DE0 /* Assets.xcassets */; };
 		47277C101E437CFB00393DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47277C0E1E437CFB00393DE0 /* LaunchScreen.storyboard */; };
+		4727AE9C1E44760400DD64DA /* Background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4727AE971E4472C100DD64DA /* Background.mp4 */; };
+		4727AEA71E44768700DD64DA /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727AE9D1E44768700DD64DA /* BackgroundVideo.swift */; };
+		4727AEA81E44768700DD64DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4727AE9F1E44768700DD64DA /* Info.plist */; };
+		4727AEAA1E44768700DD64DA /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727AEA21E44768700DD64DA /* SwiftVideoBackground-dummy.m */; };
+		4727AEAD1E4483D400DD64DA /* GlitchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4727AEAB1E4483D400DD64DA /* GlitchLabel.swift */; };
+		47A18E071E489E7300A03F7E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A18E061E489E7300A03F7E /* CategoryViewController.swift */; };
+		558601B7A740C14DDF47D715 /* Pods_WTW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7159072998CD457FF3F8C3 /* Pods_WTW.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050BED5A25869F3B38891C9D /* Pods-WTW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTW/Pods-WTW.debug.xcconfig"; sourceTree = "<group>"; };
 		47277C021E437CFB00393DE0 /* WTW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47277C051E437CFB00393DE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47277C071E437CFB00393DE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,19 @@
 		47277C0C1E437CFB00393DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47277C0F1E437CFB00393DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47277C111E437CFB00393DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4727AE971E4472C100DD64DA /* Background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.mp4; sourceTree = "<group>"; };
+		4727AE9D1E44768700DD64DA /* BackgroundVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundVideo.swift; path = SwiftVideoBackground/BackgroundVideo.swift; sourceTree = "<group>"; };
+		4727AE9E1E44768700DD64DA /* SwiftVideoBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/SwiftVideoBackground.h; sourceTree = "<group>"; };
+		4727AE9F1E44768700DD64DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4727AEA01E44768700DD64DA /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		4727AEA11E44768700DD64DA /* SwiftVideoBackground.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.xcconfig; sourceTree = "<group>"; };
+		4727AEA21E44768700DD64DA /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		4727AEA31E44768700DD64DA /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		4727AEA41E44768700DD64DA /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		4727AEAB1E4483D400DD64DA /* GlitchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlitchLabel.swift; path = ../../Sources/GlitchLabel.swift; sourceTree = "<group>"; };
+		47A18E061E489E7300A03F7E /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		7C7159072998CD457FF3F8C3 /* Pods_WTW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70FF7172F5F87E73C8C60F8 /* Pods-WTW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTW.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTW/Pods-WTW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558601B7A740C14DDF47D715 /* Pods_WTW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31D6B91C5D3534C52D86BD50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7159072998CD457FF3F8C3 /* Pods_WTW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47277BF91E437CFB00393DE0 = {
 			isa = PBXGroup;
 			children = (
 				47277C041E437CFB00393DE0 /* WTW */,
+				9F05A1D514E93C521FD14CF9 /* Pods */,
 				47277C031E437CFB00393DE0 /* Products */,
+				31D6B91C5D3534C52D86BD50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,61 @@
 		47277C041E437CFB00393DE0 /* WTW */ = {
 			isa = PBXGroup;
 			children = (
+				4727AEAC1E4483D400DD64DA /* GlitchLabel */,
 				47277C051E437CFB00393DE0 /* AppDelegate.swift */,
 				47277C071E437CFB00393DE0 /* ViewController.swift */,
+				47A18E061E489E7300A03F7E /* CategoryViewController.swift */,
 				47277C091E437CFB00393DE0 /* Main.storyboard */,
 				47277C0C1E437CFB00393DE0 /* Assets.xcassets */,
 				47277C0E1E437CFB00393DE0 /* LaunchScreen.storyboard */,
 				47277C111E437CFB00393DE0 /* Info.plist */,
+				4727AE971E4472C100DD64DA /* Background.mp4 */,
 			);
 			path = WTW;
+			sourceTree = "<group>";
+		};
+		4727AEA51E44768700DD64DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4727AE9F1E44768700DD64DA /* Info.plist */,
+				4727AEA01E44768700DD64DA /* SwiftVideoBackground.modulemap */,
+				4727AEA11E44768700DD64DA /* SwiftVideoBackground.xcconfig */,
+				4727AEA21E44768700DD64DA /* SwiftVideoBackground-dummy.m */,
+				4727AEA31E44768700DD64DA /* SwiftVideoBackground-prefix.pch */,
+				4727AEA41E44768700DD64DA /* SwiftVideoBackground-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		4727AEA61E44768700DD64DA /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				4727AE9D1E44768700DD64DA /* BackgroundVideo.swift */,
+				4727AE9E1E44768700DD64DA /* SwiftVideoBackground.h */,
+				4727AEA51E44768700DD64DA /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = "../SwiftVideoBackground-master/Example/ExampleLogin/Pods/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		4727AEAC1E4483D400DD64DA /* GlitchLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4727AEAB1E4483D400DD64DA /* GlitchLabel.swift */,
+			);
+			name = GlitchLabel;
+			path = "../../GlitchLabel-master/Sample/GlitchLabel";
+			sourceTree = "<group>";
+		};
+		9F05A1D514E93C521FD14CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4727AEA61E44768700DD64DA /* SwiftVideoBackground */,
+				050BED5A25869F3B38891C9D /* Pods-WTW.debug.xcconfig */,
+				C70FF7172F5F87E73C8C60F8 /* Pods-WTW.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47277C141E437CFB00393DE0 /* Build configuration list for PBXNativeTarget "WTW" */;
 			buildPhases = (
+				667087473ABC0B26C4B1DFD7 /* [CP] Check Pods Manifest.lock */,
 				47277BFE1E437CFB00393DE0 /* Sources */,
 				47277BFF1E437CFB00393DE0 /* Frameworks */,
 				47277C001E437CFB00393DE0 /* Resources */,
+				B7A3768E4766B349F4BCABFB /* [CP] Embed Pods Frameworks */,
+				547D2C1E2D62177ACC2E7BB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +207,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				47277C101E437CFB00393DE0 /* LaunchScreen.storyboard in Resources */,
+				4727AE9C1E44760400DD64DA /* Background.mp4 in Resources */,
 				47277C0D1E437CFB00393DE0 /* Assets.xcassets in Resources */,
+				4727AEA81E44768700DD64DA /* Info.plist in Resources */,
 				47277C0B1E437CFB00393DE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		547D2C1E2D62177ACC2E7BB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTW/Pods-WTW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667087473ABC0B26C4B1DFD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A3768E4766B349F4BCABFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTW/Pods-WTW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47277BFE1E437CFB00393DE0 /* Sources */ = {
@@ -139,6 +271,10 @@
 			files = (
 				47277C081E437CFB00393DE0 /* ViewController.swift in Sources */,
 				47277C061E437CFB00393DE0 /* AppDelegate.swift in Sources */,
+				4727AEAA1E44768700DD64DA /* SwiftVideoBackground-dummy.m in Sources */,
+				4727AEA71E44768700DD64DA /* BackgroundVideo.swift in Sources */,
+				47A18E071E489E7300A03F7E /* CategoryViewController.swift in Sources */,
+				4727AEAD1E4483D400DD64DA /* GlitchLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +318,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +368,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,9 +395,12 @@
 		};
 		47277C151E437CFB00393DE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050BED5A25869F3B38891C9D /* Pods-WTW.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZHSMV869F;
+				"GCC_VERSION[arch=*]" = "";
 				INFOPLIST_FILE = WTW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poncik.WTW;
@@ -270,9 +411,12 @@
 		};
 		47277C161E437CFB00393DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70FF7172F5F87E73C8C60F8 /* Pods-WTW.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QZHSMV869F;
+				"GCC_VERSION[arch=*]" = "";
 				INFOPLIST_FILE = WTW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poncik.WTW;
@@ -300,6 +444,7 @@
 				47277C161E437CFB00393DE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
